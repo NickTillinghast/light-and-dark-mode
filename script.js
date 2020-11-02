@@ -6,6 +6,14 @@ const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
 
+
+// function toggleDarkLightMode(isLight) {
+//     nav.style.backgroundColor = isLight ? 'rgb(0 0 0 / 50%)' : 'rgb(255 255 255 / 50%)';
+//     textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
+//     toggleIcon.children[0].textContent = 'Dark Mode';
+//     toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
+//     imageMode('dark');
+// }
 // Dark or light images
 function imageMode(color) {
     image1.src = `img/undraw_proud_coder_${color}.svg`;
